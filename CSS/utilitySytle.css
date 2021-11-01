@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800&display=swap");
+:root {
+  --primary: #eebf00;
+  --secondary: #232b28;
+  --ternary: #6c6c6c;
+  --danger: #fe4545;
+  --pure: #fefefe;
+  --light: #f0f0f0;
+  --heaven: #ffffff;
+  --footer: #2d333f;
+}
+
+.container {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+/* commented code works with image  */
+
+.magic-shadow {
+  /* position: relative; */
+  box-shadow: 1px 3px 5px var(--ternary);
+}
+
+.magic-shadow::after {
+  /* background: url(/images/s2.png) no-repeat;
+  background-position: center;
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 69px;
+  bottom: -8px;
+  z-index: -1; */
+}
+
+.btn {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  padding: 0.75rem 0.75rem;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border: 1px solid transparent;
+  line-height: 0.8;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  color: var(--heaven);
+}
+
+.welcome div button:first-child {
+  margin-right: 0.5rem;
+}
+
+.btn-primary:hover {
+  background-color: var(--heaven);
+  color: var(--primary);
+  border: 1px solid var(--primary);
+}
+
+.btn-secondary {
+  background-color: var(--secondary);
+  color: var(--heaven);
+}
+
+.btn-secondary:hover {
+  border: none;
+  background-color: var(--heaven);
+  color: var(--secondary);
+  border: 1px solid var(--secondary);
+}
+
+.section-heading {
+  text-align: center;
+  position: relative;
+  margin-bottom: 6rem;
+}
+
+/* .section-heading::after {
+  width: 100%;
+  content: "";
+  display: block;
+  height: 30px;
+  background: url(/images/small.png) no-repeat, center center/cover;
+  position: absolute;
+  bottom: -32px;
+  padding: 0 auto;
+} */
+
+.text-center {
+  text-align: center;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.text-primary {
+  color: var(--primary);
+}
+
+.text-pure {
+  color: var(--heaven);
+}
+
+.text-left {
+  text-align: left;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}

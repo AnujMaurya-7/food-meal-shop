@@ -1,0 +1,195 @@
+@media (min-width: 576px) {
+  .container {
+    max-width: 554px;
+  }
+}
+
+@media (min-width: 839px) {
+  .container {
+    max-width: 800px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1152px;
+  }
+  .our-services .container {
+    max-width: 1200px;
+  }
+}
+
+@media (max-width: 992px) {
+  header.topbar,
+  .navigation-bar {
+    display: none;
+  }
+
+  .nav-trigger {
+    display: grid;
+  }
+  .hero-image {
+    width: 200px;
+    top: 40px;
+    right: 60px;
+  }
+
+  header.hero {
+    margin-top: 4rem;
+  }
+  .about-meal {
+    text-align: center;
+  }
+
+  .top-products .slider-btn {
+    display: none !important;
+  }
+
+  .card-wrapper .service-card {
+    margin-bottom: 4rem;
+  }
+
+  .article-wrapper {
+    flex-direction: column;
+  }
+
+  .article-wrapper .article-card {
+    margin-bottom: 4rem;
+    margin-right: 0;
+  }
+
+  footer .box {
+    text-align: left;
+  }
+}
+
+@media (max-width: 1200px) and (min-width: 992px) {
+  .hero-image {
+    top: -40px;
+    right: 50px;
+  }
+}
+@media (max-width: 992px) and (max-width: 839px) {
+  .hero-image {
+    top: 50px;
+    right: -100px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-image {
+    display: none;
+  }
+  .timer .deal-box {
+    height: 100px;
+    width: 100px;
+  }
+  section.top-products {
+    padding: 2rem 0;
+  }
+
+  .food-card button {
+    font-size: 0.9rem;
+  }
+  .food-card button i {
+    margin-right: 0.5rem;
+  }
+
+  section.about-meal {
+    padding: 2rem 0.4rem;
+  }
+
+  section.our-services {
+    padding: 2rem 0rem;
+  }
+
+  .card-wrapper .service-card {
+    padding: 2rem 0.8rem;
+  }
+
+  section.big-deal {
+    min-height: 328px;
+  }
+
+  section.latest-news {
+    padding: 4rem;
+    background-color: var(--light);
+  }
+
+  section.latest-news {
+    padding: 2rem 0.2rem;
+  }
+
+  .article-wrapper .article-card {
+    margin-right: 0;
+  }
+  .article-wrapper {
+    margin-right: 0;
+  }
+  .card-content {
+    padding: 1.3rem;
+  }
+
+  .card-content .post-meta .comm-count {
+    margin-left: 0.5rem;
+  }
+
+  .card-content .post-meta {
+    font-size: 0.85rem;
+  }
+
+  section.subscribe {
+    padding: 2rem 0.4rem;
+  }
+
+  section.subscribe .input-wrap button {
+    padding: 0.8rem 0.4rem;
+  }
+}
+
+@media (max-width: 839px) {
+  section.contact-us {
+    flex-direction: column;
+  }
+
+  .contact-info-wrapper {
+    width: 100%;
+  }
+
+  .map {
+    width: 100%;
+    height: 300px;
+  }
+
+  .timer {
+    margin-right: -1rem;
+  }
+
+  .timer .deal-box {
+    margin-right: 1rem;
+  }
+
+  section.big-deal {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 372px) {
+  footer .instagram-api .post-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  section.subscribe .input-wrap {
+    flex-direction: column;
+  }
+
+  section.subscribe .input-wrap input {
+    padding: 1rem 0;
+  }
+}
